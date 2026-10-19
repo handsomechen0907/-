@@ -1,0 +1,34 @@
+# 忽略规则
+# 提交前先看一眼，别把一次性产物塞进仓库
+
+# 系统/工具
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WorkBuddy 运行时（本地状态、日志、缓存）
+.workbuddy/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office 临时锁文件
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 本地备份
+*.bak
+*.wbak
+*.old.log
