@@ -1,33 +1,37 @@
 # 学习笔记 · 单词本
 
-WorkBuddy 工作空间里出现过、值得记下来的英文词。按来源分组，每组都能回溯到当初是哪次会话、哪份材料里冒出来的，方便复习时对上下文。
+WorkBuddy 工作空间里出现过、值得记下来的英文词。
 
-不是词典，是**用过一遍之后往回捞**的东西。所以每条都尽量带上它出现的原句，光背中文意思不长记性。
+不是词典，是**用过一遍之后往回捞**的东西。所以每条尽量带上它出现的原句，光背中文意思不长记性。
 
 ## 目录
 
-| 文件 | 内容 | 词数 |
-| --- | --- | --- |
-| [`words/unit1-key-expressions.md`](words/unit1-key-expressions.md) | 教材 Unit 1 核心术语（AI 话题） | 8 |
-| [`words/unit1-words-phrases.md`](words/unit1-words-phrases.md) | 教材 Unit 1 词框 + 合成词 | 18 |
-| [`words/writing-avoid.md`](words/writing-avoid.md) | 作文里**不要用**的 AI 高频词（反查表） | 8 |
+| 文件 | 内容 |
+| --- | --- |
+| [`words/writing-avoid.md`](words/writing-avoid.md) | 作文里**不要用**的 AI 高频词（反查表） |
 
-## 来源
+> 新增词表时在 `words/` 下建一个 `.md`，然后把文件名补进上表。
 
-- **Unit 1 词表**：2026-10-18，用户补拍的教材照片（智慧版《大学英语综合教程》1，Unit 1 *College Life in the Age of AI*）。原始整理见 `D:\wb\2026-10-16-14-36-59\AI-shaping-college-life_词汇嵌入定稿.md`。
-- **作文实践**：同一份定稿里嵌用了 9 个词，实际写进句子的位置有记录，见下文「实际用过」一栏。
-- **AI 高频词黑名单**：2026-10-16「去 AI 味」任务中总结，用来反向自查。
+## 文件约定
 
-## 维护约定
+每个词表文件建议用同样的表格结构，方便以后统一检索：
 
-- 新词追加到对应文件的表格末尾，不删旧条目。
-- 每个词尽量带：词性、中文、**原句**、出处。没有原句就写「待补」。
-- 复习优先级看「熟练」列，空着 = 还没复习过。
+| 词 | 词性 | 中文 | 原句 / 用法 | 熟练 |
+| --- | --- | --- | --- | --- |
+| example | n. | 例子 | 待补 | |
+
+- **原句**尽量写真实出处那句，比孤立释义好记。
+- **熟练**列空着 = 还没复习过；复习过一轮再打勾。
+- 新词追加到表格末尾，不删旧条目。
 
 ## 远端
 
-GitHub：<https://github.com/handsomechen0907/->（仓库名就是一个连字符 `-`，地址里别漏掉）
+GitHub：<https://github.com/handsomechen0907/word-notes>
 
-- 远端走 SSH（`git@github.com:...`），不走 HTTPS——该网络下 HTTPS 会遇到证书吊销检查报错 `CRYPT_E_NO_REVOCATION_CHECK`。
+- 远端走 SSH（`git@github.com:handsomechen0907/word-notes.git`），不走 HTTPS——该网络下 HTTPS 会遇到证书吊销检查报错 `CRYPT_E_NO_REVOCATION_CHECK`。
 - 本地 `main` 已设置 upstream 追踪 `origin/main`，直接 `git push` / `git pull` 即可。
 - 想在 VS Code 里同步：左下角状态栏云朵图标，或源代码管理面板的 `...` → 拉取/推送。
+
+## 本地位置
+
+`D:\wb\word-notes`（桌面「学习软件」文件夹里的 `git.lnk` 双击可直接进入）
