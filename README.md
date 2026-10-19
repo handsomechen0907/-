@@ -23,3 +23,11 @@ WorkBuddy 工作空间里出现过、值得记下来的英文词。按来源分�
 - 新词追加到对应文件的表格末尾，不删旧条目。
 - 每个词尽量带：词性、中文、**原句**、出处。没有原句就写「待补」。
 - 复习优先级看「熟练」列，空着 = 还没复习过。
+
+## 远端
+
+GitHub：<https://github.com/handsomechen0907/->（仓库名就是一个连字符 `-`，地址里别漏掉）
+
+- 远端走 SSH（`git@github.com:...`），不走 HTTPS——该网络下 HTTPS 会遇到证书吊销检查报错 `CRYPT_E_NO_REVOCATION_CHECK`。
+- 本地 `main` 已设置 upstream 追踪 `origin/main`，直接 `git push` / `git pull` 即可。
+- 想在 VS Code 里同步：左下角状态栏云朵图标，或源代码管理面板的 `...` → 拉取/推送。
