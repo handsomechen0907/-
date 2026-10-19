@@ -26,12 +26,12 @@ WorkBuddy 工作空间里出现过、值得记下来的英文词。
 
 ## 远端
 
-GitHub：<https://github.com/handsomechen0907/word-notes>
+GitHub：<https://github.com/handsomechen0907/xiaodanta>
 
-- 远端走 SSH（`git@github.com:handsomechen0907/word-notes.git`），不走 HTTPS——该网络下 HTTPS 会遇到证书吊销检查报错 `CRYPT_E_NO_REVOCATION_CHECK`。
+- 远端走 SSH（`git@github.com:handsomechen0907/xiaodanta.git`），不走 HTTPS——该网络下 HTTPS 会遇到证书吊销检查报错 `CRYPT_E_NO_REVOCATION_CHECK`。
 - 本地 `main` 已设置 upstream 追踪 `origin/main`，直接 `git push` / `git pull` 即可。
 - 想在 VS Code 里同步：左下角状态栏云朵图标，或源代码管理面板的 `...` → 拉取/推送。
 
 ## 本地位置
 
-`D:\wb\word-notes`（桌面「学习软件」文件夹里的 `git.lnk` 双击可直接进入）
+`D:\wb\xiaodanta`（桌面「学习软件」文件夹里的 `git.lnk` 双击可直接进入）
